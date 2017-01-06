@@ -1,0 +1,172 @@
+@silver: #bdbdbd;
+@mine-shaft: #333333;
+@indigo-purple: #5c6bc0;
+
+.container {
+	padding: 0 110px;
+ }
+.header {
+	color: #111111;
+	padding: 50px 0 30px;
+	#logo {
+		font-family: Lato-BoldItalic;
+		font-size: 42px;
+	}
+	.nav {
+		li {
+			font-family: Lato-Bold;
+			font-size: 16px;
+			&:focus, &:hover {
+				border-bottom: 2px black;
+			}
+			a {
+				color: @mine-shaft;
+				&:first-child {
+					color: @silver;
+				}
+				&:focus, &:hover {
+					background-color: #f7f9fc;
+					color: @mine-shaft;
+				}
+			}
+		}
+	}
+}
+.shadow {
+	background-color: white;
+	box-shadow: 0 0 5px @silver;
+
+	.photos{
+		padding: 25px;
+		img {
+			padding-bottom: 25px;
+		}
+	}
+	.soundcloud {
+		background-color:@indigo-purple;
+		overflow: hidden;
+	}
+	iframe {
+		max-width: 100%;
+	}
+	article {
+		font-family: Lato-Regular;
+		padding: 55px 95px;
+		margin: 0 0 50px 0;
+		position: relative;
+		.tag {
+			position: absolute;
+			right: -10px;
+			top: 20px;
+			background-color: @indigo-purple;
+			color: white;
+			font-family: Lato-Bold;
+			font-size: 14px;
+			padding: 8px 10px 8px 20px;
+		}
+		h6 {
+			color: @silver;
+		}
+		hr {
+			margin: 35px 0;
+		}
+		h3 {
+			font-family: Lato-Light;
+			color: @silver;
+		}
+		#quote-reflect {
+				box-shadow:5px 0 0 @silver;
+		}
+		#quote {
+			font-family: Lato-Italic;
+		}
+		p {
+			font-size: 17px;
+			color: #585858;
+			img{
+				float: left;
+			}
+		}
+		.read-more {
+			padding: 30px 0;
+			h4 a{
+				font-family: Lato-Bold;
+				color: @indigo-purple;
+			}
+			h5 a {
+				color: @silver;
+				&:hover {
+					color: @indigo-purple;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+ul.pagination {
+		a{
+			color: @mine-shaft;
+			margin: 10px;
+			border: none;
+			border-radius: none;
+			&:hover {
+				background-color: @indigo-purple;
+				color: white;
+			}
+		}
+}
+
+footer {
+	background-color: @indigo-purple;
+	text-align: center;
+	padding: 65px 0;
+	h1 {
+		color: #4f5ca6;
+		font-family: Lato-BoldItalic;
+	}
+	.nav {
+		padding: 0 170px;
+		li {
+			font-family: Lato-Bold;
+			font-size: 16px;
+			&:focus, &:hover {
+				color: #a9afdb;
+			}
+			a {
+				color: white;
+				&:focus, &:hover {
+					color: #a9afdb;
+					background-color: @indigo-purple;
+				}
+			}
+		}
+	}
+	hr {
+			border-color: #4f5ca6;
+		}
+	p {
+		color: #a9afdb;
+		font-size: 14px;
+		padding: 30px;
+			span {
+				color: white;
+				font-family: Lato-Bold;
+				padding-left: 15px;
+		}
+	}
+	.social {
+		ul {
+			li {
+				display: inline;
+				text-decoration: none;
+				padding: 5px;
+				.fa {
+					color: white;
+					&:focus, &:hover {
+						color: @silver;
+					}
+				}
+			}
+		}
+	}
+}

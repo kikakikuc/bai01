@@ -1,0 +1,163 @@
+.container {
+  padding: 0 110px;
+}
+.header {
+  color: #111111;
+  padding: 50px 0 30px;
+}
+.header #logo {
+  font-family: Lato-BoldItalic;
+  font-size: 42px;
+}
+.header .nav li {
+  font-family: Lato-Bold;
+  font-size: 16px;
+}
+.header .nav li:focus,
+.header .nav li:hover {
+  border-bottom: 2px black;
+}
+.header .nav li a {
+  color: #333333;
+}
+.header .nav li a:first-child {
+  color: #bdbdbd;
+}
+.header .nav li a:focus,
+.header .nav li a:hover {
+  background-color: #f7f9fc;
+  color: #333333;
+}
+.shadow {
+  background-color: white;
+  box-shadow: 0 0 5px #bdbdbd;
+}
+.shadow .photos {
+  padding: 25px;
+}
+.shadow .photos img {
+  padding-bottom: 25px;
+}
+.shadow .soundcloud {
+  background-color: #5c6bc0;
+  overflow: hidden;
+}
+.shadow iframe {
+  max-width: 100%;
+}
+.shadow article {
+  font-family: Lato-Regular;
+  padding: 55px 95px;
+  margin: 0 0 50px 0;
+  position: relative;
+}
+.shadow article .tag {
+  position: absolute;
+  right: -10px;
+  top: 20px;
+  background-color: #5c6bc0;
+  color: white;
+  font-family: Lato-Bold;
+  font-size: 14px;
+  padding: 8px 10px 8px 20px;
+}
+.shadow article h6 {
+  color: #bdbdbd;
+}
+.shadow article hr {
+  margin: 35px 0;
+}
+.shadow article h3 {
+  font-family: Lato-Light;
+  color: #bdbdbd;
+}
+.shadow article #quote-reflect {
+  box-shadow: 5px 0 0 #bdbdbd;
+}
+.shadow article #quote {
+  font-family: Lato-Italic;
+}
+.shadow article p {
+  font-size: 17px;
+  color: #585858;
+}
+.shadow article p img {
+  float: left;
+}
+.shadow article .read-more {
+  padding: 30px 0;
+}
+.shadow article .read-more h4 a {
+  font-family: Lato-Bold;
+  color: #5c6bc0;
+}
+.shadow article .read-more h5 a {
+  color: #bdbdbd;
+}
+.shadow article .read-more h5 a:hover {
+  color: #5c6bc0;
+  text-decoration: none;
+}
+ul.pagination a {
+  color: #333333;
+  margin: 10px;
+  border: none;
+  border-radius: none;
+}
+ul.pagination a:hover {
+  background-color: #5c6bc0;
+  color: white;
+}
+footer {
+  background-color: #5c6bc0;
+  text-align: center;
+  padding: 65px 0;
+}
+footer h1 {
+  color: #4f5ca6;
+  font-family: Lato-BoldItalic;
+}
+footer .nav {
+  padding: 0 170px;
+}
+footer .nav li {
+  font-family: Lato-Bold;
+  font-size: 16px;
+}
+footer .nav li:focus,
+footer .nav li:hover {
+  color: #a9afdb;
+}
+footer .nav li a {
+  color: white;
+}
+footer .nav li a:focus,
+footer .nav li a:hover {
+  color: #a9afdb;
+  background-color: #5c6bc0;
+}
+footer hr {
+  border-color: #4f5ca6;
+}
+footer p {
+  color: #a9afdb;
+  font-size: 14px;
+  padding: 30px;
+}
+footer p span {
+  color: white;
+  font-family: Lato-Bold;
+  padding-left: 15px;
+}
+footer .social ul li {
+  display: inline;
+  text-decoration: none;
+  padding: 5px;
+}
+footer .social ul li .fa {
+  color: white;
+}
+footer .social ul li .fa:focus,
+footer .social ul li .fa:hover {
+  color: #bdbdbd;
+}
